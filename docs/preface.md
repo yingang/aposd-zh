@@ -20,7 +20,7 @@
 
 > I have now taught the software design class three times, and this book is based on the design principles that emerged from the class. The principles are fairly high level and border on the philosophical (“Define errors out of existence”), so it is hard for students to understand the ideas in the abstract. Students learn best by writing code, making mistakes, and then seeing how their mistakes and the subsequent fixes relate to the principles.
 
-现在，我已经教过 3 次软件设计课程，并且本书是基于该课程中出现的设计原理编写的。这些原则是相当高的水平，并且是哲学上的边界（“定义错误不再存在”），因此学生很难以抽象的方式理解这些思想。通过编写代码，犯错误，然后查看他们的错误以及后续的修正与这些原则之间的关系，学生将学得最好。
+现在，我已经教过 3 次软件设计课程，并且本书是基于该课程中出现的设计原理编写的。这些原则是相当高的水平，并且是哲学上的边界（“通过定义规避错误”），因此学生很难以抽象的方式理解这些思想。通过编写代码，犯错误，然后查看他们的错误以及后续的修正与这些原则之间的关系，学生将学得最好。
 
 > At this point you may well be wondering: what makes me think I know all the answers about software design? To be honest, I don’t. There were no classes on software design when I learned to program, and I never had a mentor to teach me design principles. At the time I learned to program, code reviews were virtually nonexistent. My ideas about software design come from personal experience writing and reading code. Over my career I have written about 250,000 lines of code in a variety of languages. I’ve worked on teams that created three operating systems from scratch, multiple file and storage systems, infrastructure tools such as debuggers, build systems, and GUI toolkits, a scripting language, and interactive editors for text, drawings, presentations, and integrated circuits. Along the way I’ve experienced firsthand the problems of large systems and experimented with various design techniques. In addition, I’ve read a considerable amount of code written by other people, which has exposed me to a variety of approaches, both good and bad.
 
@@ -28,11 +28,11 @@
 
 > Out of all of this experience, I’ve tried to extract common threads, both about mistakes to avoid and techniques to use. This book is a reflection of my experiences: every problem described here is one that I have experienced personally, and every suggested technique is one that I have used successfully in my own coding.
 
-从所有这些经验中，我尝试提取通用线程，包括有关避免的错误和使用的技巧。本书反映了我的经验：这里描述的每个问题都是我亲身经历的，每种建议的技术都是我在自己的编码中成功使用的一种技术。
+从所有这些经验中，我尝试提取通用线索，包括有关避免的错误和使用的技巧。本书反映了我的经验：这里描述的每个问题都是我亲身经历的，每种建议的技术都是我在自己的编码中成功使用的一种技术。
 
 > I don’t expect this book to be the final word on software design; I’m sure there are valuable techniques that I’ve missed, and some of my suggestions may turn out to be bad ideas in the long run. However, I hope that the book will start a conversation about software design. Compare the ideas in this book with your own experiences and decide for yourself whether the approaches described here really do reduce software complexity. This book is an opinion piece, so some readers will disagree with some of my suggestions. If you do disagree, try to understand why. I’m interested in hearing about things that work for you, things that don’t work, and any other ideas you may have about software design. I hope that the ensuing conversations will improve our collective understanding of software design. I will incorporate what I learn in future editions of this book.
 
-我不希望这本书成为软件设计的定论。我敢肯定，我错过了一些有价值的技术，从长远来看，我的一些建议可能会变成坏主意。但是，我希望本书能开始有关软件设计的对话。将本书中的想法与您自己的经验进行比较，并自己决定此处介绍的方法是否确实降低了软件复杂性。这本书是一个观点，所以有些读者会不同意我的一些建议。如果您不同意，请尝试理解原因。我有兴趣了解对您有用的东西，不起作用的东西以及您可能对软件设计有任何其他想法。我希望随后的对话将增进我们对软件设计的集体理解。
+我不希望这本书成为软件设计的定论。我敢肯定，我错过了一些有价值的技术，从长远来看，我的一些建议可能会变成坏主意。但是，我希望本书能开始有关软件设计的对话。将本书中的想法与您自己的经验进行比较，并自己决定此处介绍的方法是否确实降低了软件复杂性。这是一本呈现我个人观点的书，所以有些读者会不同意我的一些建议。如果您不同意，请尝试理解原因。我有兴趣了解对您有用的东西、不起作用的东西以及您可能对软件设计有任何其他想法。我希望随后的对话将增进我们对软件设计的集体理解。
 
 > The best way to communicate with me about the book is to send email to the following address:
 
@@ -50,7 +50,7 @@
 
 > I recommend that you take the suggestions in this book with a grain of salt. The overall goal is to reduce complexity; this is more important than any particular principle or idea you read here. If you try an idea from this book and find that it doesn’t actually reduce complexity, then don’t feel obligated to keep using it (but, do let me know about your experience; I’d like to get feedback on what works and what doesn’t).
 
-我建议您使用本书建议时持保留态度。总体目标是降低复杂性；这比您在此处阅读的任何特定原理或想法更为重要。如果您尝试从本书中获得一个想法并发现它实际上并没有降低复杂性，那么您就不必继续使用它（但是，请让我知道您的经验；我想获得有关有效方法的反馈意见而不是）。
+我建议您使用本书建议时持保留态度。总体目标是降低复杂性；这比您在此处阅读的任何特定原理或想法更为重要。如果您尝试从本书中获得一个想法并发现它实际上并没有降低复杂性，那么您就不必继续使用它（但是，请让我知道您的经验；不管方法有效还是无效，我都想获得相关的反馈意见）。
 
 > Many people have offered criticisms or made suggestions that improved the quality of the book. The following people offered helpful comments on various drafts of the book: Jeff Dean, Sanjay Ghemawat, John Hartman, Brian Kernighan, James Koppel, Amy Ousterhout, Kay Ousterhout, Rob Pike, Partha Ranganathan, Keith Schwartz, and Alex Snaps. Christos Kozyrakis suggested the terms “deep” and “shallow” for classes and interfaces, replacing previous terms “thick” and “thin”, which were somewhat ambiguous. I am indebted to the students in CS 190; the process of reading their code and discussing it with them has helped to crystallize my thoughts about design.
 
