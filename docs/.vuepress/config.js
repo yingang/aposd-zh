@@ -1,53 +1,33 @@
-// https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
+
 module.exports = {
-  base: "/A-Philosophy-of-Software-Design-zh/",
+  bundler: viteBundler({}),
+
+  base: "/aposd-zh/",
+
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "《软件设计的哲学》中文翻译",
+      title: "软件设计的哲学",
     },
     '/en/': {
       lang: 'en-US',
-      title: '<A Philosophy of Software Design>',
+      title: 'A Philosophy of Software Design',
     }
   },
-  themeConfig: {
+
+  theme: defaultTheme({
     repo: "yingang/A-Philosophy-of-Software-Design-zh",
     docsRepo: "yingang/A-Philosophy-of-Software-Design-zh",
     docsBranch: "main",
     docsDir: "docs",
     contributors: false,
     sidebarDepth: 2,
-    sidebar: [
-      "preface.md",
-      "ch01.md",
-      "ch02.md",
-      "ch03.md",
-      "ch04.md",
-      "ch05.md",
-      "ch06.md",
-      "ch07.md",
-      "ch08.md",
-      "ch09.md",
-      "ch10.md",
-      "ch11.md",
-      "ch12.md",
-      "ch13.md",
-      "ch14.md",
-      "ch15.md",
-      "ch16.md",
-      "ch17.md",
-      "ch18.md",
-      "ch19.md",
-      "ch20.md",
-      "ch21.md",
-      "summary.md"
-    ],
+    sidebar: "auto",
     locales: {
       '/': { // zh-CN
-        // 该语言在下拉菜单中的标签
         selectLanguageName: '简体中文',
-        // 多语言下拉菜单的标题
         selectLanguageText: '选择语言',
         selectLanguageAriaselectLanguageName: '选择语言',
         editLink: true,
@@ -63,5 +43,5 @@ module.exports = {
         lastUpdatedText: 'Last Updated',
       }
     }
-  }
+  })
 };
