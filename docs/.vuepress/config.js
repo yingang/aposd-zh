@@ -12,8 +12,8 @@ module.exports = {
     }
   },
   themeConfig: {
-    repo: "Cactus-proj/A-Philosophy-of-Software-Design-zh",
-    docsRepo: "Cactus-proj/A-Philosophy-of-Software-Design-zh",
+    repo: "yingang/A-Philosophy-of-Software-Design-zh",
+    docsRepo: "yingang/A-Philosophy-of-Software-Design-zh",
     docsBranch: "main",
     docsDir: "docs",
     contributors: false,

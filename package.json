@@ -1,6 +1,6 @@
 {
   "name": "A-Philosophy-of-Software-Design-zh",
-  "repository": "https://github.com/Cactus-proj/A-Philosophy-of-Software-Design-zh.git",
+  "repository": "https://github.com/yingang/A-Philosophy-of-Software-Design-zh.git",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs --open --host 127.0.0.1",
