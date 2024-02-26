@@ -4,7 +4,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 module.exports = {
   bundler: viteBundler({}),
 
-  base: "/aposd-zh/",
+  base: "/A-Philosophy-of-Software-Design-zh/",
 
   locales: {
     '/': {
