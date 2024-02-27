@@ -54,4 +54,4 @@
 
 > Many people have offered criticisms or made suggestions that improved the quality of the book. The following people offered helpful comments on various drafts of the book: Jeff Dean, Sanjay Ghemawat, John Hartman, Brian Kernighan, James Koppel, Amy Ousterhout, Kay Ousterhout, Rob Pike, Partha Ranganathan, Keith Schwartz, and Alex Snaps. Christos Kozyrakis suggested the terms “deep” and “shallow” for classes and interfaces, replacing previous terms “thick” and “thin”, which were somewhat ambiguous. I am indebted to the students in CS 190; the process of reading their code and discussing it with them has helped to crystallize my thoughts about design.
 
-许多人提出了批评或提出建议，以提高本书的质量。以下人员对本书的各种草稿提供了有用的意见：杰夫·迪恩，桑杰·格玛瓦特，约翰·哈特曼，布莱恩·科尼根，詹姆斯·科佩尔，艾米·奥斯特豪特，凯·奥斯特豪特，罗伯·派克，帕塔·朗格纳森，基思·施瓦茨和亚历克斯·斯内普斯。Christos Kozyrakis 为类和接口建议了术语“深层”和“浅层”，代替了之前有点模糊的术语“厚”和“薄”。我很感激 CS 190 中的学生；阅读他们的代码并与他们讨论的过程有助于明确我对设计的想法。
+许多人提出了批评或建议，以提高本书的质量。以下人员对本书的各种草稿提供了有用的意见：杰夫·迪恩，桑杰·格玛瓦特，约翰·哈特曼，布莱恩·科尼根，詹姆斯·科佩尔，艾米·奥斯特豪特，凯·奥斯特豪特，罗伯·派克，帕塔·朗格纳森，基思·施瓦茨和亚历克斯·斯内普斯。Christos Kozyrakis 为类和接口建议了术语“深层”和“浅层”，代替了之前有点模糊的术语“厚”和“薄”。我很感激 CS 190 中的学生；阅读他们的代码并与他们讨论的过程有助于明确我对设计的想法。
