@@ -3,7 +3,7 @@ LaTeX 版
 
 > 先切换到 `latex/` 文件夹内，再执行脚本
 > 请使用 python3
-> `pip install mistune==2.0.0a2`
+> `pip install mistune==2.0.5`
 > `cd latex`
 > `python convert2latex.py`
 > 安装对应平台的 texlive 最新版
