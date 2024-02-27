@@ -1,7 +1,7 @@
-[![Build and Deploy](https://github.com/yingang/A-Philosophy-of-Software-Design-zh/actions/workflows/CI.yml/badge.svg)](https://github.com/yingang/A-Philosophy-of-Software-Design-zh/actions/workflows/CI.yml)
+[![Build and Deploy](https://github.com/yingang/aposd-zh/actions/workflows/CI.yml/badge.svg)](https://github.com/yingang/aposd-zh/actions/workflows/CI.yml)
 # 《软件设计的哲学》中文翻译
 
-在线阅读：https://yingang.github.io/A-Philosophy-of-Software-Design-zh/
+在线阅读：https://yingang.github.io/aposd-zh/
 
 <div style="inline">
   <img src="./docs/cover.jpeg" width="210px" height="280px" />
@@ -52,7 +52,7 @@
 
 
 ```sh
-git clone https://github.com/yingang/A-Philosophy-of-Software-Design-zh.git
+git clone https://github.com/yingang/aposd.git
 cd A-Philosophy-of-Software-Design-zh/
 yarn install    # 安装 VuePress@next
 yarn dev        # 编译并打开网页预览

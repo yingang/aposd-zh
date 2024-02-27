@@ -1,6 +1,6 @@
 {
-  "name": "A-Philosophy-of-Software-Design-zh",
-  "repository": "https://github.com/yingang/A-Philosophy-of-Software-Design-zh.git",
+  "name": "aposd-zh",
+  "repository": "https://github.com/yingang/aposd-zh.git",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs --open --host 127.0.0.1",

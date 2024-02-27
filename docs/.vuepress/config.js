@@ -4,7 +4,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 module.exports = {
   bundler: viteBundler({}),
 
-  base: "/A-Philosophy-of-Software-Design-zh/",
+  base: "/aposd-zh/",
 
   locales: {
     '/': {
@@ -18,8 +18,8 @@ module.exports = {
   },
 
   theme: defaultTheme({
-    repo: "yingang/A-Philosophy-of-Software-Design-zh",
-    docsRepo: "yingang/A-Philosophy-of-Software-Design-zh",
+    repo: "yingang/aposd-zh",
+    docsRepo: "yingang/aposd-zh",
     docsBranch: "main",
     docsDir: "docs",
     contributors: false,
