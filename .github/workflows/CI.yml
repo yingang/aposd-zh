@@ -9,13 +9,13 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Install and Build   
         run: |
           yarn install
           yarn run build
       - name: Deploy  
-        uses: JamesIves/github-pages-deploy-action@v4.3.0
+        uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
           branch: gh-pages
           folder: docs/.vuepress/dist
@@ -24,18 +24,18 @@ jobs:
     name: "PDF Build"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
       - run: pip install mistune
-      - uses: wtfjoke/setup-tectonic@v1
+      - uses: wtfjoke/setup-tectonic@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-      - name: 'gen tex files'
+      - name: Generate TeX Files'
         run: python latex/convert2latex.py
       - name: Run Tectonic
-        run: tectonic --keep-logs  latex/APoSD-zh.tex
+        run: tectonic --keep-logs latex/APoSD-zh.tex
       - name: Upload PDF
         uses: actions/upload-artifact@v3
         with:
