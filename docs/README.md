@@ -11,7 +11,7 @@
 - [第 2 章 复杂性的本质](ch02.md)
 - [第 3 章 能工作的代码是不够的](ch03.md)
 - [第 4 章 模块应该是深的](ch04.md)
-- [第 5 章 信息隐藏(和泄漏)](ch05.md)
+- [第 5 章 信息隐藏和信息泄露](ch05.md)
 - [第 6 章 通用模块更深入](ch06.md)
 - [第 7 章 不同的层，不同的抽象](ch07.md)
 - [第 8 章 降低复杂性](ch08.md)
@@ -29,3 +29,12 @@
 - [第 20 章 设计性能](ch20.md)
 - [第 21 章 结论](ch21.md)
 - [总结](summary.md)
+
+## 翻译说明
+
+无意中看到这本书的相关介绍，也很快找到了 GitHub 上的民间翻译版，因为看到一些翻译不太恰当的地方，所以想着顺手提交修正下，然后找到其中 Star 数量比较多的主要是 [Cactus-proj](https://github.com/Cactus-proj/A-Philosophy-of-Software-Design-zh) 和 [Go7hic](https://github.com/Go7hic/A-Philosophy-of-Software-Design) 的，但两者的内容几乎完全一样，包括翻译有错误的地方也错得一样。从实质内容的提交历史来看，应该 Cactus-proj 是更早的提交者，这一点从各自的 Fock/Star 数量也能侧面印证。
+
+这两个项目均有收到并处理一些内容修正的 PR，但即使是 Cactus-proj，最新的几个 PR 也处于长期未处理的状态，应该都已经暂停维护了，然后基于 Cactus-proj，包含内容修复最多的是 [luojiego](https://github.com/luojiego/A-Philosophy-of-Software-Design-zh) 的 Fock，于是就基于这个创建了自己的 [Fork](https://github.com/yingang/aposd-zh)。除了一边阅读一边校对，也摸索着更新了相关的部署脚本，同样部署到 [GitHub Pages](https://yingang.github.io/aposd-zh/) 上，可直接在线阅读。
+
+从提交历史来看，[gdut-yy](https://github.com/gdut-yy) 应该是主要的翻译贡献者，[liquid207](https://github.com/liquid207)、[wanghuanwei](https://github.com/wanghuanwei)、[luojiego](https://github.com/luojiego) 和 [BlackGlory](https://github.com/BlackGlory) 也都贡献了比较多的翻译修正，[inkydragon](https://github.com/inkydragon) 则主要负责了 LaTeX 和 PDF 相关的工作，不确定历史是否挖掘充分，所有提到未提到的贡献者，一并感谢！
+
