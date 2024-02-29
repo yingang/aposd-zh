@@ -12,7 +12,7 @@
 - [第 3 章 能工作的代码是不够的](ch03.md)
 - [第 4 章 模块应该是深的](ch04.md)
 - [第 5 章 信息隐藏和信息泄露](ch05.md)
-- [第 6 章 通用模块更深入](ch06.md)
+- [第 6 章 通用的模块是更深的](ch06.md)
 - [第 7 章 不同的层，不同的抽象](ch07.md)
 - [第 8 章 降低复杂性](ch08.md)
 - [第 9 章 在一起更好还是分开更好？](ch09.md)
@@ -38,3 +38,4 @@
 
 从提交历史来看，[gdut-yy](https://github.com/gdut-yy) 应该是主要的翻译贡献者，[liquid207](https://github.com/liquid207)、[wanghuanwei](https://github.com/wanghuanwei)、[luojiego](https://github.com/luojiego) 和 [BlackGlory](https://github.com/BlackGlory) 也都贡献了比较多的翻译修正，[inkydragon](https://github.com/inkydragon) 则主要负责了 LaTeX 和 PDF 相关的工作，不确定历史是否挖掘充分，所有提到未提到的贡献者，一并感谢！
 
+如果您在阅读过程中，发现有翻译不当的地方，或者有其他建议，欢迎提交相应的 PR 或 Issue。
