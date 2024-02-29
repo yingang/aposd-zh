@@ -4,7 +4,7 @@
 
 > Here are the most important software design principles discussed in this book:
 
-这是本书中讨论的最重要的软件设计原则：
+这些是本书中讨论的最重要的软件设计原则：
 
 > 1. Complexity is incremental: you have to sweat the small stuff (see p. 11).
 > 2. Working code isn’t enough (see p. 14).
@@ -22,15 +22,15 @@
 > 14. Software should be designed for ease of reading, not ease of writing (see p. 149).
 > 15. The increments of software development should be abstractions, not features (see p. 154).
 
-1. 复杂性是增量产生的：您必须努力处理小事情（请参阅 [2.4 节](ch02.md)）。
-2. 能工作的代码是不够的（请参阅 [3.2 节](ch03.md)）。
-3. 持续进行小额投资以改善系统设计（请参阅 [3.3 节](ch03.md)）。
-4. 模块应该是深的（请参阅 [4.4 节](ch04.md)）
-5. 接口的设计应尽可能简化其最常见的用法（请参阅 [4.7 节](ch04.md)）。
+1. 复杂性是增量产生的：您必须努力处理小事情（请参阅 [第 2.4 节](ch02.md)）。
+2. 能工作的代码是不够的（请参阅 [第 3.2 节](ch03.md)）。
+3. 持续进行小额投资以改善系统设计（请参阅 [第 3.3 节](ch03.md)）。
+4. 模块应该是深的（请参阅 [第 4.4 节](ch04.md)）
+5. 接口的设计应尽可能简化其最常见的用法（请参阅 [第 4.7 节](ch04.md)）。
 6. 让模块的接口简单比让其实现简单更重要（请参阅 [第八章](ch08.md), [9.8](ch09.md)）。
-7. 通用模块是更深的（请参阅 [第六章](ch06.md)）。
+7. 通用模块是更深的（请参阅 [第 6 章](ch06.md)）。
 8. 通用和专用代码分开（请参阅 [9.4](ch09.md)）。
-9. 不同的层应具有不同的抽象（请参阅 [第七章](ch07.md)）。
+9. 不同的层级应具有不同的抽象（请参阅 [第 7 章](ch07.md)）。
 10. 降低复杂度（请参阅 [第八章](ch08.md)）。
 11. 定义不存在的错误（和特殊情况）（请参阅 [10.3](ch10.md)）。
 12. 设计两次（请参阅 [第十一章](ch11.md)）。
@@ -43,7 +43,7 @@
 
 > Here are a few of of the most important red flags discussed in this book. The presence of any of these symptoms in a system suggests that there is a problem with the system’s design:
 
-这是本书中讨论的一些最重要的危险信号。系统中任何这些症状的存在表明系统的设计存在问题：
+这些是本书中讨论的一些最重要的危险信号。系统中任何这些症状的存在都表明系统的设计存在问题：
 
 > - Shallow Module: the interface for a class or method isn’t much simpler than its implementation (see pp. 25, 110).
 > - Information Leakage: a design decision is reflected in multiple modules (see p. 31).
@@ -60,11 +60,11 @@
 > - Hard to Describe: in order to be complete, the documentation for a variable or method must be long. (see p. 131).
 > - Nonobvious Code: the behavior or meaning of a piece of code cannot be understood easily. (see p. 148).
 
-- 浅模块：类或方法的接口并不比其实现简单得多（请参阅 [4.5 节](ch04.md)）。
-- 信息泄露：设计决策反映在多个模块中（请参阅 [5.2 节](ch05.md)）。
-- 时间分解：代码结构基于执行操作的顺序，而不是基于信息隐藏的原则（请参阅 [5.3 节](ch05.md)）。
-- 过度暴露：API 强迫调用者在使用常用功能的时候还需要去了解那些很少使用的功能（请参阅 [5.7 节](ch05.md)）。
-- Pass-Through Method：一种方法几乎不执行任何操作，只是将其参数传递给具有相似签名的另一种方法（请参阅[第 7 章](ch07.md)）。
+- 浅模块：类或方法的接口并不比其实现简单得多（请参阅 [第 4.5 节](ch04.md)）。
+- 信息泄露：设计决策反映在多个模块中（请参阅 [第 5.2 节](ch05.md)）。
+- 时间分解：代码结构基于执行操作的顺序，而不是基于信息隐藏的原则（请参阅 [第 5.3 节](ch05.md)）。
+- 过度暴露：API 强迫调用者在使用常用功能的时候还需要去了解那些很少使用的功能（请参阅 [第 5.7 节](ch05.md)）。
+- 直通方法：一种几乎不执行任何操作的方法，只是将其参数传递给具有相似签名的另一个方法（请参阅 [第 7.1 节](ch07.md)）。
 - 重复：一遍又一遍的重复代码（请参阅[第 9 章](ch09.md)）。
 - 特殊通用混合物：特殊用途代码未与通用代码完全分开（请参阅[第 9 章](ch09.md)）。
 - 联合方法：两种方法之间的依赖性很大，以至于很难理解一种方法的实现而又不理解另一种方法的实现（请参阅[第 9 章](ch09.md)）。
