@@ -39,3 +39,47 @@
 从提交历史来看，[gdut-yy](https://github.com/gdut-yy) 应该是主要的翻译贡献者，[liquid207](https://github.com/liquid207)、[wanghuanwei](https://github.com/wanghuanwei)、[luojiego](https://github.com/luojiego) 和 [BlackGlory](https://github.com/BlackGlory) 也都贡献了比较多的翻译修正，[inkydragon](https://github.com/inkydragon) 则主要负责了 LaTeX 和 PDF 相关的工作以及格式规范、持续集成等方面的工作，不确定历史是否挖掘充分，所有提到未提到的贡献者，一并感谢！
 
 如果您在阅读过程中，发现有翻译不当的地方，或者有其他建议，欢迎提交相应的 PR 或 Issue。
+
+## 术语翻译
+
+翻译是个比较困难的事情，有很多见仁见智的地方，所以这里先列出一些术语的翻译选择和背后的考虑因素，以供参考，并至少在本书籍的翻译过程中保持相对统一，也欢迎提 Issue 探讨。
+
+通用的术语：
+
+|英文|中文|说明|
+|-|-|-|
+|bug|代码缺陷/缺陷||
+|change|变更/改变||
+|change amplification|变更放大||
+|classitis|多类症||
+|cognitive load|认知负荷||
+|complexity|复杂性||
+|deep module / class|深模块 / 深类|没有用“深层”是希望避免与 layer 和 level 等术语的翻译混淆|
+|dependency / dependencies|依赖性 / 依赖项||
+|dispatcher|分发器|没有用“调度器”是希望避免与 scheduler 等术语的翻译混淆|
+|exception masking|异常屏蔽||
+|exception aggregation|异常聚合||
+|formal / informal|形式化的 / 非形式化的||
+|hierarchical|层次化的||
+|implement|实现||
+|information leakage|信息泄露|没有用泄漏|
+|layer / level|层/层级||
+|mindset|思维方式 / 思维||
+|obscurity|模糊性/模糊项||
+|public method/variables|公有方法 / 公有变量|没有用“公开”是希望与 expose 和 exposure 等术语的翻译混淆|
+|shallow module / class|浅模块 / 浅类|和 deep 的翻译选择是同样的原因|
+|strategic programming / approach|战略式编程 / 战略式方法||
+|tactical programming / approach|战术式编程 / 战术式方法 || 
+|waterfall method / model|瀑布式方法 / 瀑布式模型||
+|web browser / server|Web 浏览器 / Web 服务器|此处的 Web 翻译成网络或网页都不太自然，就保留英文了|
+|web site|网站||
+
+仅针对本书籍的术语：
+
+|英文|中文|说明|
+|-|-|-|
+|define error out of existence|通过定义来规避错误||
+|red flag|危险信号||
+|taking it too far|做过头了||
+|somewhat general-purpose|有点通用 / 一定程度的通用||
+|unknown unknowns|未知的未知||
