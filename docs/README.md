@@ -62,10 +62,11 @@
 |exception masking|异常屏蔽||
 |exception aggregation|异常聚合||
 |formal / informal|形式化的 / 非形式化的||
+|GUI|图形界面 / 图形用户界面||
 |hierarchical|层次化的||
 |implement|实现||
 |information leakage|信息泄露|没有用泄漏|
-|layer / level|层/层级||
+|layer / level|层 / 层级||
 |mindset|思维方式 / 思维||
 |obscurity|模糊性/模糊项||
 |public method / variables|公有方法 / 公有变量|没有用“公开”是希望与 expose 和 exposure 等术语的翻译混淆|
@@ -73,7 +74,7 @@
 |strategic programming / approach|战略式编程 / 战略式方法||
 |tactical programming / approach|战术式编程 / 战术式方法 || 
 |waterfall method / model|瀑布式方法 / 瀑布式模型||
-|web browser / server|Web 浏览器 / Web 服务器|此处的 Web 翻译成网络或网页都不太自然，就保留英文了|
+|web browser / server|Web 浏览器 / Web 服务器|没有用“网络”或“网页”是希望避免与 network 和 web page 等术语的翻译混淆，就保留英文了|
 |web site|网站||
 
 仅针对本书籍的术语：
