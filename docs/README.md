@@ -42,7 +42,7 @@
 
 ## 术语翻译
 
-翻译是个比较困难的事情，有很多见仁见智的地方，所以这里先列出一些术语的翻译选择和背后的考虑因素，以供参考，并至少在本书籍的翻译过程中保持相对统一，也欢迎提 Issue 探讨。
+翻译是个比较困难的事情，除了个人水平，也有很多见仁见智的地方，所以这里先列出一些术语的翻译选择和背后的考虑因素，以供参考，并至少在本书籍的翻译过程中保持相对统一，也欢迎提 Issue 探讨。
 
 通用的术语：
 
@@ -66,7 +66,7 @@
 |layer / level|层/层级||
 |mindset|思维方式 / 思维||
 |obscurity|模糊性/模糊项||
-|public method/variables|公有方法 / 公有变量|没有用“公开”是希望与 expose 和 exposure 等术语的翻译混淆|
+|public method / variables|公有方法 / 公有变量|没有用“公开”是希望与 expose 和 exposure 等术语的翻译混淆|
 |shallow module / class|浅模块 / 浅类|和 deep 的翻译选择是同样的原因|
 |strategic programming / approach|战略式编程 / 战略式方法||
 |tactical programming / approach|战术式编程 / 战术式方法 || 
