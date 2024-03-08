@@ -81,8 +81,10 @@
 
 |英文|中文|说明|
 |-|-|-|
+|conjoined methods|连体方法||
 |define error out of existence|通过定义来规避错误||
 |red flag|危险信号||
+|selection|区域选择 / 选择的区域 / 所选区域|图像界面文本编译器中的示例，直接翻译成“选择”会不太清晰|
 |taking it too far|做过头了||
 |somewhat general-purpose|有点通用 / 一定程度的通用||
 |unknown unknowns|未知的未知||
