@@ -45,35 +45,35 @@
 
 这些是本书中讨论的一些最重要的危险信号。系统中任何这些症状的存在都表明系统的设计存在问题：
 
-> - Shallow Module: the interface for a class or method isn’t much simpler than its implementation (see pp. 25, 110).
-> - Information Leakage: a design decision is reflected in multiple modules (see p. 31).
-> - Temporal Decomposition: the code structure is based on the order in which operations are executed, not on information hiding (see p. 32).
-> - Overexposure: An API forces callers to be aware of rarely used features in order to use commonly used features (see p. 36).
-> - Pass-Through Method: a method does almost nothing except pass its arguments to another method with a similar signature (see p. 46).
-> - Repetition: a nontrivial piece of code is repeated over and over (see p. 62).
-> - Special-General Mixture: special-purpose code is not cleanly separated from general purpose code (see p. 65).
-> - Conjoined Methods: two methods have so many dependencies that its hard to understand the implementation of one without understanding the implementation of the other (see p. 72).
-> - Comment Repeats Code: all of the information in a comment is immediately obvious from the code next to the comment (see p. 104).
-> - Implementation Documentation Contaminates Interface: an interface comment describes implementation details not needed by users of the thing being documented (see p. 114).
-> - Vague Name: the name of a variable or method is so imprecise that it doesn’t convey much useful information (see p. 123).
-> - Hard to Pick Name: it is difficult to come up with a precise and intuitive name for an entity (see p. 125).
-> - Hard to Describe: in order to be complete, the documentation for a variable or method must be long. (see p. 131).
-> - Nonobvious Code: the behavior or meaning of a piece of code cannot be understood easily. (see p. 148).
+> - **Shallow Module**: the interface for a class or method isn’t much simpler than its implementation (see pp. 25, 110).
+> - **Information Leakage**: a design decision is reflected in multiple modules (see p. 31).
+> - **Temporal Decomposition**: the code structure is based on the order in which operations are executed, not on information hiding (see p. 32).
+> - **Overexposure**: An API forces callers to be aware of rarely used features in order to use commonly used features (see p. 36).
+> - **Pass-Through Method**: a method does almost nothing except pass its arguments to another method with a similar signature (see p. 46).
+> - **Repetition**: a nontrivial piece of code is repeated over and over (see p. 62).
+> - **Special-General Mixture**: special-purpose code is not cleanly separated from general purpose code (see p. 65).
+> - **Conjoined Methods**: two methods have so many dependencies that its hard to understand the implementation of one without understanding the implementation of the other (see p. 72).
+> - **Comment Repeats Code**: all of the information in a comment is immediately obvious from the code next to the comment (see p. 104).
+> - **Implementation Documentation Contaminates Interface**: an interface comment describes implementation details not needed by users of the thing being documented (see p. 114).
+> - **Vague Name**: the name of a variable or method is so imprecise that it doesn’t convey much useful information (see p. 123).
+> - **Hard to Pick Name**: it is difficult to come up with a precise and intuitive name for an entity (see p. 125).
+> - **Hard to Describe**: in order to be complete, the documentation for a variable or method must be long. (see p. 131).
+> - **Nonobvious Code**: the behavior or meaning of a piece of code cannot be understood easily. (see p. 148).
 
-- 浅模块：类或方法的接口并不比其实现简单得多（请参阅 [第 4.5 节](ch04.md)，[第 13.5 节](ch13.md)）。
-- 信息泄露：设计决策反映在多个模块中（请参阅 [第 5.2 节](ch05.md)）。
-- 时间分解：代码结构基于执行操作的顺序，而不是基于信息隐藏的原则（请参阅 [第 5.3 节](ch05.md)）。
-- 过度暴露：API 强迫调用者在使用常用功能的时候还需要去了解那些很少使用的功能（请参阅 [第 5.7 节](ch05.md)）。
-- 直通方法：一种几乎不执行任何操作的方法，只是将其参数传递给具有相似签名的另一个方法（请参阅 [第 7.1 节](ch07.md)）。
-- 重复：一遍又一遍的重复代码（请参阅 [第 9.4 节](ch09.md)）。
-- 通用专用混合体：专用代码与通用代码没有干净地分开（请参阅 [第 9.5 节](ch09.md)）。
-- 连体方法：两个方法之间的依赖很多，以至于很难在不理解一个方法的实现的情况下理解另一个方法的实现（请参阅 [第 9.8 节](ch09.md)）。
-- 注释重复了代码：注释中的所有信息在旁边的代码里显而易见（请参阅 [第 13.2 节](ch13.md)）。
-- 实现文档污染了接口：接口注释描述了其用户不需要了解的实现细节（请参阅 [第 13.5 节](ch13.md)）。
-- 模糊的名称：变量或方法的名称过于不精确，以至于它不能传递太多有用的信息（请参阅 [第 14.3 节](ch14.md)）。
-- 难以选取名称：很难为实体提供一个精确而直观的名称（请参阅 [第 14.3 节](ch14.md)）。
-- 难以描述：为了得到完整的描述，变量或方法的文档必须很长（请参阅 [第 15.3 节](ch15.md)）。
-- 非显而易见的代码：一段代码的行为或含义不容易被理解（请参阅 [第 18.2 节](ch18.md)）。
+- **浅模块**：类或方法的接口并不比其实现简单得多（请参阅 [第 4.5 节](ch04.md)，[第 13.5 节](ch13.md)）。
+- **信息泄露**：设计决策反映在多个模块中（请参阅 [第 5.2 节](ch05.md)）。
+- **时间分解**：代码结构基于执行操作的顺序，而不是基于信息隐藏的原则（请参阅 [第 5.3 节](ch05.md)）。
+- **过度暴露**：API 强迫调用者在使用常用功能的时候还需要去了解那些很少使用的功能（请参阅 [第 5.7 节](ch05.md)）。
+- **直通方法**：一种几乎不执行任何操作的方法，只是将其参数传递给具有相似签名的另一个方法（请参阅 [第 7.1 节](ch07.md)）。
+- **重复**：一遍又一遍的重复代码（请参阅 [第 9.4 节](ch09.md)）。
+- **通用专用混合体**：专用代码与通用代码没有干净地分开（请参阅 [第 9.5 节](ch09.md)）。
+- **连体方法**：两个方法之间的依赖很多，以至于很难在不理解一个方法的实现的情况下理解另一个方法的实现（请参阅 [第 9.8 节](ch09.md)）。
+- **注释重复了代码**：注释中的所有信息在旁边的代码里显而易见（请参阅 [第 13.2 节](ch13.md)）。
+- **实现文档污染了接口**：接口注释描述了其用户不需要了解的实现细节（请参阅 [第 13.5 节](ch13.md)）。
+- **模糊的名称**：变量或方法的名称过于不精确，以至于它不能传递太多有用的信息（请参阅 [第 14.3 节](ch14.md)）。
+- **难以选取名称**：很难为实体提供一个精确而直观的名称（请参阅 [第 14.3 节](ch14.md)）。
+- **难以描述**：为了得到完整的描述，变量或方法的文档必须很长（请参阅 [第 15.3 节](ch15.md)）。
+- **非显而易见的代码**：一段代码的行为或含义不容易被理解（请参阅 [第 18.2 节](ch18.md)）。
 
 ## 关于作者
 
