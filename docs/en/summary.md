@@ -20,8 +20,6 @@ Here are the most important software design principles discussed in this book:
 14. Software should be designed for ease of reading, not ease of writing (see p. 149).
 15. The increments of software development should be abstractions, not features (see p. 154).
 
----
-
 ## Summary of Red Flags
 
 Here are a few of of the most important red flags discussed in this book. The presence of any of these symptoms in a system suggests that there is a problem with the system’s design:
@@ -40,8 +38,6 @@ Here are a few of of the most important red flags discussed in this book. The pr
 - Hard to Pick Name: it is difficult to come up with a precise and intuitive name for an entity (see p. 125).
 - Hard to Describe: in order to be complete, the documentation for a variable or method must be long. (see p. 131).
 - Nonobvious Code: the behavior or meaning of a piece of code cannot be understood easily. (see p. 148).
-
----
 
 ## About the Author
 
