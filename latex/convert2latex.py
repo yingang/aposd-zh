@@ -80,7 +80,16 @@ class LaTeXRenderer(mistune.HTMLRenderer):
     
     def link(self, link, text=None, title=None):
         # 不支持 title
-        return ' \\href{'+link+'}' + '{'+(text or link)+'} '
+        if link.endswith('.md'):
+            '''
+            start = text.find(' ') + 1
+            end = text.find(' ', start)
+            id = text[start:end]
+            return ' \\hyperref[section.' + id + ']{'+(text or link)+'} '
+            '''
+            return text
+        else:
+            return ' \\href{'+link+'}' + '{'+(text or link)+'} '
 
     def image(self, src, alt="", title=None):
         _, fname = os.path.split(src)
@@ -118,7 +127,7 @@ class LaTeXRenderer(mistune.HTMLRenderer):
         return ' \\textbf{ ' + text + ' } '
     
     def codespan(self, text):
-        return ' \\texttt{ ' + text + ' } '
+        return ' \\texttt{ ' + self.escape_latex(text) + ' } '
     
     def linebreak(self):
         return ' \\\\ ' # '\\'
@@ -136,16 +145,22 @@ class LaTeXRenderer(mistune.HTMLRenderer):
         }
         if 1==level:
             ## text = '第 1 章 XXX'
-            text = re.sub(r"(第 [0-9]+ 章 )", '', text)
+            if text == '前言':
+                id = 'preface'
+            elif text == '总结':
+                id = 'summary'
+            else:
+                start = text.find(' ')
+                end = text.find(' ', start + 1)
+                id = text[start:end].strip()
+                text = re.sub(r"(第 [0-9]+ 章 )", '', text)
         else: 
-            ## text = '2.5 Conclusion 结论'
-            ## 删除标题中的英文
-            # s = re.sub(r"(\d+\.\d+ [a-zA-Z: ?/-]+)", '', s)
+            ## text = '2.5 结论'
             ## 仅删除编号
+            id = text[:text.find(' ')].strip()
             text = re.sub(r"(\d+\.\d+ )", '', text)
-        
         tag = lvdict[level]
-        return '\n\\' + tag + '{' + text + '}\n'
+        return '\n\\' + tag + '{' + text + '}\n' # + '\label{section.' + id + '}\n'
 
     def newline(self):
         return '\n'
@@ -215,7 +230,7 @@ for mdfile in os.listdir(MD_ROOT__DIR):
     # mdfile = 'ch0.md' # for debug
     fname, ext = os.path.splitext(mdfile)
     # 跳过非 markdown 文件 和 README.md
-    if ('.md' != ext) or ('README'==fname):
+    if '.md' != ext:
         print("[md2tex] Skip file {}".format(mdfile))
         continue
     else:
