@@ -38,7 +38,9 @@
 
 从提交历史来看，[gdut-yy](https://github.com/gdut-yy) 应该是主要的翻译贡献者，[liquid207](https://github.com/liquid207)、[wanghuanwei](https://github.com/wanghuanwei)、[luojiego](https://github.com/luojiego) 和 [BlackGlory](https://github.com/BlackGlory) 也都贡献了比较多的翻译修正，[inkydragon](https://github.com/inkydragon) 则主要负责了 LaTeX 和 PDF 相关的工作以及格式规范、持续集成等方面的工作，不确定历史是否挖掘充分，所有提到未提到的贡献者，一并感谢！
 
-出于尊重原作版权的考虑，在完整的校订工作完成之后，我删除了与中文并列对照的英文内容，对于纯英文内容也删除了主体内容，只保留了前言以及各个章节的概要和总结。如果您在阅读过程中，发现有翻译不当的地方，或者有其他建议，欢迎提交相应的 PR 或 Issue。
+出于尊重原作版权的考虑，在完整的校订工作完成之后，我删除了与中文并列对照的英文内容，对于纯英文内容也删除了主体部分，只保留了前言以及各个章节的概要和总结。如果您在阅读过程中，发现有翻译不当的地方，或者有其他建议，欢迎提交相应的 PR 或 Issue。
+
+另外，同时还基于 `opencc` 使用 Python 脚本自动生成了繁体中文的翻译版本，也一并放在了 [GitHub Pages](https://yingang.github.io/aposd-zh/) 上，如果发现有处理不当的内容，请针对该脚本或对应的简体内容提交 PR 或 Issue。
 
 ## 术语翻译
 
