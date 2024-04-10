@@ -54,6 +54,7 @@ class LaTeXRenderer(mistune.HTMLRenderer):
             'c++':  'C++',
             'java': 'Java',
             'go':   'C',  # TODO: def highlight for go
+            'python': 'Python',
         }
         # 图片对应的列表
         self._ltx_img_dict = {
