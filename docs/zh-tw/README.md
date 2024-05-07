@@ -32,9 +32,9 @@
 
 ## 翻譯說明
 
-無意中看到這本書的相關介紹，也很快找到了 GitHub 上的民間翻譯版，因為看到一些翻譯不太恰當的地方，所以想著順手提交修正下，然後找到其中 Star 數量比較多的主要是 [Cactus-proj](https://github.com/Cactus-proj/A-Philosophy-of-Software-Design-zh) 和 [Go7hic](https://github.com/Go7hic/A-Philosophy-of-Software-Design) 的，但兩者的內容幾乎完全一樣，包括翻譯有錯誤的地方也錯得一樣。從實質內容的提交歷史來看，應該 Cactus-proj 是更早的提交者，這一點從各自的 Fock/Star 數量也能側面印證。
+無意中看到這本書的相關介紹，也很快找到了 GitHub 上的民間翻譯版，因為看到一些翻譯不太恰當的地方，所以想著順手提交修正下，然後找到其中 Star 數量比較多的主要是 [Cactus-proj](https://github.com/Cactus-proj/A-Philosophy-of-Software-Design-zh) 和 [Go7hic](https://github.com/Go7hic/A-Philosophy-of-Software-Design) 的，但兩者的內容幾乎完全一樣，包括一些翻譯不當的地方也是同樣的。從實質內容的提交歷史來看，應該 Cactus-proj 是更早的提交者，這一點從各自的 Fock/Star 數量也能側面印證。
 
-這兩個專案均有收到並處理一些內容修正的 PR，但即使是 Cactus-proj，最新的幾個 PR 也處於長期未處理的狀態，應該都已經暫停維護了，然後基於 Cactus-proj，包含內容修復最多的是 [luojiego](https://github.com/luojiego/A-Philosophy-of-Software-Design-zh) 的 Fork，於是就基於這個建立了自己的 [Fork](https://github.com/yingang/aposd-zh)。除了一邊閱讀一邊校對，也摸索著更新了相關的部署指令碼，部署到我自己的 [GitHub Pages](https://yingang.github.io/aposd-zh/) 上，可直接線上閱讀。
+這兩個專案均有收到並處理一些內容修正的 PR，但即使是 Cactus-proj，最新的幾個 PR 也處於較長時間未處理的狀態，推測都已經暫停維護了，然後基於 Cactus-proj，包含內容修復最多的是 [luojiego](https://github.com/luojiego/A-Philosophy-of-Software-Design-zh) 的 Fork，於是就基於這個建立了自己的 [Fork](https://github.com/yingang/aposd-zh)。除了一邊閱讀一邊校對，也摸索著更新了相關的部署指令碼，部署到我自己的 [GitHub Pages](https://yingang.github.io/aposd-zh/) 上，可直接線上閱讀。
 
 從提交歷史來看，[gdut-yy](https://github.com/gdut-yy) 應該是主要的翻譯貢獻者，[liquid207](https://github.com/liquid207)、[wanghuanwei](https://github.com/wanghuanwei)、[luojiego](https://github.com/luojiego) 和 [BlackGlory](https://github.com/BlackGlory) 也都貢獻了比較多的翻譯修正，[inkydragon](https://github.com/inkydragon) 則主要負責了 LaTeX 和 PDF 相關的工作以及格式規範、持續整合等方面的工作，不確定歷史是否挖掘充分，所有提到未提到的貢獻者，一併感謝！
 
