@@ -49,6 +49,10 @@ John Ousterhout 是斯坦福大学的 Bosack Lerner 计算机科学教授。他�
 
 另外，同时还基于 `opencc` 使用 Python 脚本自动生成了繁体中文的翻译版本，也一并放在了 [GitHub Pages](https://yingang.github.io/aposd-zh/zh-tw/) 上，如果发现有处理不当的内容，请针对该脚本或对应的简体中文内容提交 PR 或 Issue。
 
+### 注意
+
+因本人的翻译重心已转向[原书第二版的翻译](https://github.com/yingang/aposd2e-zh)，此仓库的主动更新将主要是纠错性质的，但不拒绝任何形式的 PR 和 Issue。
+
 ## 本地开发 & 阅读
 
 本项目基于 VuePress 进行开发，以提供比 Github Markdown 更佳的阅读体验
