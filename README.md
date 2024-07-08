@@ -39,19 +39,9 @@ John Ousterhout 是斯坦福大学的 Bosack Lerner 计算机科学教授。他�
 
 ## 翻译说明
 
-无意中看到这本书的相关介绍，也很快找到了 GitHub 上的民间翻译版，因为看到一些翻译不太恰当的地方，所以想着顺手提交修正下，然后找到其中 Star 数量比较多的主要是 [Cactus-proj](https://github.com/Cactus-proj/A-Philosophy-of-Software-Design-zh) 和 [Go7hic](https://github.com/Go7hic/A-Philosophy-of-Software-Design) 的，但两者的内容几乎完全一样，包括一些翻译不当的地方也是同样的。从实质内容的提交历史来看，应该 Cactus-proj 是更早的提交者，这一点从各自的 Fock/Star 数量也能侧面印证。
+详细请参阅[翻译说明](https://github.com/yingang/aposd-zh/tree/main/docs#%E7%BF%BB%E8%AF%91%E8%AF%B4%E6%98%8E)。
 
-这两个项目均有收到并处理一些内容修正的 PR，但即使是 Cactus-proj，最新的几个 PR 也处于较长时间未处理的状态，推测都已经暂停维护了，然后基于 Cactus-proj，包含内容修复最多的是 [luojiego](https://github.com/luojiego/A-Philosophy-of-Software-Design-zh) 的 Fork，于是就基于这个创建了自己的 [Fork](https://github.com/yingang/aposd-zh)。除了一边阅读一边校对，也摸索着更新了相关的部署脚本，部署到我自己的 [GitHub Pages](https://yingang.github.io/aposd-zh/) 上，可直接在线阅读。
-
-从提交历史来看，[gdut-yy](https://github.com/gdut-yy) 应该是主要的翻译贡献者，[liquid207](https://github.com/liquid207)、[wanghuanwei](https://github.com/wanghuanwei)、[luojiego](https://github.com/luojiego) 和 [BlackGlory](https://github.com/BlackGlory) 也都贡献了比较多的翻译修正，[inkydragon](https://github.com/inkydragon) 则主要负责了 LaTeX 和 PDF 相关的工作以及格式规范、持续集成等方面的工作，不确定历史是否挖掘充分，所有提到未提到的贡献者，一并感谢！
-
-出于尊重原作版权的考虑，在完整的校订工作完成之后，我删除了与中文并列对照的英文内容，对于纯英文内容也删除了主体部分，只保留了前言以及各个章节的概要和总结。如果您在阅读过程中，发现有翻译不当的地方，或者有其他建议，欢迎提交相应的 PR 或 Issue。
-
-另外，同时还基于 `opencc` 使用 Python 脚本自动生成了繁体中文的翻译版本，也一并放在了 [GitHub Pages](https://yingang.github.io/aposd-zh/zh-tw/) 上，如果发现有处理不当的内容，请针对该脚本或对应的简体中文内容提交 PR 或 Issue。
-
-### 注意
-
-因本人精力更多已转向[原书第二版的翻译](https://github.com/yingang/aposd2e-zh)，此仓库的主动更新将主要是纠错性质的，但不拒绝任何形式的 PR 和 Issue。
+注意：因本人精力更多已转向[原书第二版的翻译](https://github.com/yingang/aposd2e-zh)，此仓库的主动更新将主要是纠错性质的，但不拒绝任何形式的 PR 和 Issue。
 
 ## 本地开发 & 阅读
 
