@@ -41,7 +41,7 @@ John Ousterhout 是斯坦福大学的 Bosack Lerner 计算机科学教授。他�
 
 详细请参阅[翻译说明](https://github.com/yingang/aposd-zh/tree/main/docs#%E7%BF%BB%E8%AF%91%E8%AF%B4%E6%98%8E)。
 
-注意：[原书第二版的翻译](https://github.com/yingang/aposd2e-zh)也已完成，因精力有限，对第一版翻译的主动更新将主要是纠错性质的，但不拒绝任何形式的 PR 和 Issue。
+注意：[原书第二版的中文翻译](https://github.com/yingang/aposd2e-zh)也已完成，因精力有限，对原书第一版翻译的主动更新将主要是纠错性质的，从内容和翻译质量的角度建议大家直接阅读[第二版]((https://github.com/yingang/aposd2e-zh))。
 
 ## 本地开发 & 阅读
 
