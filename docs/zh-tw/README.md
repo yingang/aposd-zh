@@ -57,6 +57,6 @@
 |information leakage|資訊洩露|沒有用“洩漏”|
 |pass-through|透傳|用於“透傳方法”、“透傳變數”、“透傳引數”等場景|
 |public method / variables|公有方法 / 公有變數|沒有用“公開”是希望與 expose 和 exposure 等術語的翻譯混淆|
-|selection|區域選擇 / 選擇的區域 / 所選區域|影象介面文字編譯器中的示例，直接翻譯成“選擇”會不太清晰|
+|selection|區域選擇 / 選擇的區域 / 所選區域|影像介面文字編譯器中的示例，直接翻譯成“選擇”會不太清晰|
 |shallow module / class|淺模組 / 淺類|沒有用“淺層”，和 deep 的翻譯選擇是同樣的原因|
 |web browser / server|Web 瀏覽器 / Web 伺服器|沒有用“網路”或“網頁”是希望避免與 network 和 web page 等術語的翻譯混淆，就保留英文了|
