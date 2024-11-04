@@ -1,7 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
-import { createSiderBar } from './siderbar'
+import { createSidebar } from './sidebar'
 
 export default defineUserConfig({
 	bundler: viteBundler({}),
@@ -18,8 +18,8 @@ export default defineUserConfig({
 			title: 'A Philosophy of Software Design',
 		},
 		'/zh-tw/' : {
-      lang: 'zh-TW',
-      title: '軟體設計的哲學，第二版',
+			lang: 'zh-TW',
+			title: '軟體設計的哲學',
     }
 	},
 
@@ -35,26 +35,29 @@ export default defineUserConfig({
 				// zh-CN
 				selectLanguageName: '简体中文',
 				selectLanguageText: '选择语言',
+				// selectLanguageAriaselectLanguageName: '选择语言',
 				editLink: true,
 				editLinkText: '在 GitHub 上编辑此页',
 				lastUpdatedText: '上次更新',
-				sidebar: createSiderBar('docs', ''),
+				sidebar: createSidebar('docs', ''),
 			},
 			'/en/': {
 				selectLanguageName: 'English',
 				selectLanguageText: 'Languages',
+				// selectLanguageAriaselectLanguageName: 'Select language',
 				editLink: false,
 				editLinkText: 'Edit this page on GitHub',
 				lastUpdatedText: 'Last Updated',
-				sidebar: createSiderBar('docs/en', '/en'),
+				sidebar: createSidebar('docs/en', '/en'),
 			},
 			'/zh-tw/': {
 				selectLanguageName: '繁体中文',
 				selectLanguageText: '選擇語言',
+				// selectLanguageAriaselectLanguageName: '選擇語言',
 				editLink: false,
 				editLinkText: '在 GitHub 上編輯此頁',
 				lastUpdatedText: '上次更新',
-				sidebar: createSiderBar('docs/zh-tw', '/zh-tw'),
+				sidebar: createSidebar('docs/zh-tw', '/zh-tw'),
 			},
 		},
 	}),

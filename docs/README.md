@@ -1,4 +1,4 @@
-## 简介
+# 简介
 
 ![](./figures/douban.jpg)
 
