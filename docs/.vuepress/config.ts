@@ -11,15 +11,15 @@ export default defineUserConfig({
 	locales: {
 		'/': {
 			lang: 'zh-CN',
-			title: '软件设计的哲学',
+			title: '软件设计的哲学，第一版',
 		},
 		'/en/': {
 			lang: 'en-US',
-			title: 'A Philosophy of Software Design',
+			title: 'A Philosophy of Software Design, 1st Edition',
 		},
 		'/zh-tw/' : {
 			lang: 'zh-TW',
-			title: '軟體設計的哲學',
+			title: '軟體設計的哲學，第一版',
     }
 	},
 
