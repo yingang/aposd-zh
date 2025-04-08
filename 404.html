@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>软件设计的哲学，第一版</title><meta name="description" content="">
+    <link rel="preload" href="/aposd-zh/assets/style-BCXB3hdu.css" as="style"><link rel="stylesheet" href="/aposd-zh/assets/style-BCXB3hdu.css">
+    <link rel="modulepreload" href="/aposd-zh/assets/app-s25-7jI4.js"><link rel="modulepreload" href="/aposd-zh/assets/404.html-4AkW95dy.js">
+    <link rel="prefetch" href="/aposd-zh/assets/index.html-CstYFlyC.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch01.html-DjJH4NMq.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch02.html-BEWBX1ic.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch03.html-Baos8vrw.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch04.html-BDRjYAI8.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch05.html-DFptaCqv.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch06.html-DJiMfZ4l.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch07.html-owld-I5K.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch08.html-DMXRYAok.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch09.html-BHs_CrkS.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch10.html-D5TXXRM5.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch11.html-FO7BQzcs.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch12.html-DZzxT-3H.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch13.html-I03BZGkn.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch14.html-CVWdG3z2.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch15.html-BoTYqVQE.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch16.html-CSlnh5xC.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch17.html-80JLiTnC.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch18.html-Cesog0YO.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch19.html-B3GK6s1Z.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch20.html-z63tNMKh.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch21.html-DmHSe7gw.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/preface.html-B3TDqmJU.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/summary.html-DBO35TH8.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/index.html-CQlXxoiH.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch01.html-CUtgsaZW.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch02.html-PtQ-rpa4.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch03.html-CjnyTjQU.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch04.html-ymhx0SGh.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch05.html-BiORPxTj.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch06.html-C2KYQInS.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch07.html-Bg3IKU_B.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch08.html-Csvbdw9j.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch09.html-BTt9zC5O.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch10.html-hyLruOPJ.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch11.html-NLAMQAFl.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch12.html-OfDSBjqe.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch13.html-CDnxmkhl.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch14.html-CWkAx-et.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch15.html-BsVqMpIE.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch16.html-CXxmz2Cu.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch17.html-C52xxQBg.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch18.html-BIpix6VP.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch19.html-XNF-9LuV.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch20.html-Cc4ME6Rg.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch21.html-15OQiSGV.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/preface.html-WHJLnzK4.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/summary.html-De6WF5Q9.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/index.html-D83WCAPV.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch01.html-a_WM5ref.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch02.html-CVecLbkH.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch03.html-DNKBIMpP.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch04.html-L2JKAv-J.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch05.html-CsyemvSB.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch06.html-D-Nfqa8K.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch07.html-DvU_MNjY.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch08.html-BUlCfVjk.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch09.html-BHeiNzS1.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch10.html-80RszXjf.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch11.html-DcEKCNtE.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch12.html-CNLKsqlh.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch13.html-DpVks9uI.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch14.html-C1CvipEK.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch15.html-Cs9-_3FP.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch16.html-Do6of5lj.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch17.html-BfEscwXb.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch18.html-T3IyqeEG.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch19.html-ChoKPGVd.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch20.html-plgBB2Ok.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/ch21.html-0YDa8EKk.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/preface.html-DODvzRSt.js" as="script"><link rel="prefetch" href="/aposd-zh/assets/summary.html-DgBtj0bW.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-ec9917b8><main class="page" data-v-ec9917b8><div vp-content data-v-ec9917b8><h1 data-v-ec9917b8>404</h1><blockquote data-v-ec9917b8>How did we get here?</blockquote><a class="route-link" href="/aposd-zh/" data-v-ec9917b8>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/aposd-zh/assets/app-s25-7jI4.js" defer></script>
+  </body>
+</html>
