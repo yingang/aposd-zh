@@ -1,0 +1,1 @@
+var e=`/aposd-zh/assets/00011-CNtqviGr.jpeg`;export{e as t};
