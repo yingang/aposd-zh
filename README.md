@@ -1,4 +1,4 @@
->> [原书第二版的中文翻译](https://github.com/yingang/aposd2e-zh)也已完成，因精力有限，对原书第一版翻译的更新将主要是纠错性质的，从内容和翻译质量的角度建议大家直接阅读[第二版](https://yingang.github.io/aposd2e-zh/)。
+> [原书第二版的中文翻译](https://github.com/yingang/aposd2e-zh)也已完成，因精力有限，对原书第一版翻译的更新将主要是纠错性质的，从内容和翻译质量的角度建议大家直接阅读[第二版](https://yingang.github.io/aposd2e-zh/)。
 
 
 [![Build and Deploy](https://github.com/yingang/aposd-zh/actions/workflows/CI.yml/badge.svg)](https://github.com/yingang/aposd-zh/actions/workflows/CI.yml)
